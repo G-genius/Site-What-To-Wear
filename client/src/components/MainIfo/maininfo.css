@@ -1,0 +1,23 @@
+.main-info {
+    display: flex;
+    align-items: center;
+    height: 800px;
+    justify-content: center;
+}
+
+.main-info h2 {
+    font-size: 45px;
+}
+
+.main-info h1 {
+    font-size: 25px;
+}
+
+.left-block {
+    width: 500px;
+}
+.left-block img {
+    width: 250px;
+    padding: 20px;
+    cursor: pointer;
+}

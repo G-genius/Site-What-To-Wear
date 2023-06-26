@@ -1,7 +1,9 @@
 header {
-    max-width: 1200px;
     margin: 0 auto;
     padding-right: 20px;
+    background: white;
+    justify-content: center;
+    display: flex;
 }
 .sidebar {
     display: flex;
@@ -42,9 +44,14 @@ header {
     margin-right: 30px;
     cursor: pointer;
 }
+.center-side li:hover {
+    color: #61dafb;
+}
+
 .right-side {
     display: flex;
     align-items: center;
+    margin-left: 40px;
 }
 .right-side button {
     border-radius: 20px;
