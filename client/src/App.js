@@ -1,15 +1,15 @@
 import './App.css';
-import Header from "./components/Header/Header";
 import MainInfo from "./components/MainIfo/MainInfo";
+import {Route, Routes} from "react-router-dom";
+import Download from "./pages/DownloadPage/Download";
 
 function App() {
     return (
-        <div className="App">
-            <Header/>
-            <MainInfo/>
+        <Routes>
+            <Route path="/" element={<MainInfo/>}/>
+            <Route path="download" element={<Download/>}/>
+        </Routes>
 
-
-        </div>
     );
 }
 

@@ -4,6 +4,7 @@ import "./maininfo.css"
 import rustore from  "../../assets/rustore.svg"
 import nashstore from "../../assets/nashstore.jpg"
 import Album from "../Album/Album";
+import Rewiews from "../Rewiews/Rewiews";
 const MainInfo = () => {
     return (
         <div className="container">
@@ -12,14 +13,13 @@ const MainInfo = () => {
                     <h2>Получите максимум от погоды</h2>
                     <h1>What to wear - отечественное погодное мобильное приложение с алгоритмом подбора одежды</h1>
                     <img src={rustore} alt="RuStore"/>
-                    <img src={nashstore} alt="NashStore"/>
 
                 </div>
                 <div>
                     <img src={phone1} alt=""/>
                 </div>
             </div>
-            <div className="container px-4 py-5" id="icon-grid">
+            <div className="container px-4 py-5" id="preimuchestva">
                 <h2 className="pb-2 border-bottom">Преимущества</h2>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                     <div className="col d-flex align-items-start">
@@ -95,6 +95,7 @@ const MainInfo = () => {
                     </div>
                 </div>
             </div>
+
             <Album/>
         </div>
     );

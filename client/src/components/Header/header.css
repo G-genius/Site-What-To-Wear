@@ -63,3 +63,8 @@ header {
     border-color: #61dafb;
     font-weight: bolder;
 }
+
+.btnLi {
+    text-decoration: none;
+    color: #00a2e8;
+}

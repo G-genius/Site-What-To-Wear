@@ -8,7 +8,7 @@ import img6 from "../../assets/ris2.png"
 const Album = () => {
     return (
         <div className="container">
-            <div className="album py-5 bg-body-tertiary border-3">
+            <div className="album py-5 bg-body-tertiary border-3" id="album">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div className="col">
@@ -39,7 +39,7 @@ const Album = () => {
                             <div className="card shadow-sm">
                                 <img src={img4} alt="" className="bd-placeholder-img card-img-top"/>
                                 <div className="card-body">
-                                    <p className="card-text">Большой выбор видов одежды.</p>
+                                    <p className="card-text">Разнообразный набор видов одежды по категориям.</p>
                                 </div>
                             </div>
                         </div>

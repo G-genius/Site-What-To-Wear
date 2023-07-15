@@ -1,26 +1,33 @@
 import React from 'react';
 import "./header.css"
 import logo from "../../assets/logo.png"
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate()
+
+    const OpenDownloadPage = () => {
+        navigate("/download")
+    }
+
     return (
         <header>
             <div className="sidebar">
                 <div className="left-side">
                     <img src={logo} alt="logo"/>
-                    <a href="">What to wear</a>
+                    <a href="/">What to wear</a>
                 </div>
                 <div className="center-side">
                     <nav aria-label="Основные разделы на странице">
                         <ul>
-                            <li>Для кого</li>
-                            <li>Преимущества</li>
-                            <li>Как это работает</li>
+                            {/*<li><a href="#maininfo">Для кого</a></li>*/}
+                            <li><a className="btnLi" href="#preimuchestva">Преимущества</a></li>
+                            <li><a className="btnLi" href="#album">Обзор</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div className="right-side">
-                    <button>Устновить приложение</button>
+                    <button onClick={OpenDownloadPage}>Устновить приложение</button>
                     <span>EN</span>
                 </div>
 
