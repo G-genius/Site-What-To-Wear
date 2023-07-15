@@ -12,11 +12,11 @@ const MainInfo = () => {
                 <div className="left-block">
                     <h2>Получите максимум от погоды</h2>
                     <h1>What to wear - отечественное погодное мобильное приложение с алгоритмом подбора одежды</h1>
-                    <img src={rustore} alt="RuStore"/>
+                    <a href="https://apps.rustore.ru/app/com.ggenius.wtw"><img src={rustore} alt="RuStore"/></a>
 
                 </div>
                 <div>
-                    <img src={phone1} alt=""/>
+                    <img className="lbimg" src={phone1} alt=""/>
                 </div>
             </div>
             <div className="container px-4 py-5" id="preimuchestva">

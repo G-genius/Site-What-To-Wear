@@ -22,3 +22,24 @@
     cursor: pointer;
     margin-left: 110px;
 }
+
+@media screen and (max-width: 720px){
+    .left-block {
+        width: 200px;
+    }
+    .left-block h2 {
+        font-size: 20px;
+    }
+    .left-block h1 {
+        font-size: 14px;
+    }
+
+    .left-block img {
+        width: 200px;
+        margin-left: 3px;
+    }
+
+    .lbimg {
+        width: 200px;
+    }
+}

@@ -68,3 +68,24 @@ header {
     text-decoration: none;
     color: #00a2e8;
 }
+
+@media screen and (max-width: 720px){
+    header {
+        height: 80px;
+        width: 100%;
+    }
+    .center-side {
+        display: none;
+    }
+    .left-side img {
+        width: 40px;
+        min-width: 40px;
+    }
+    .left-side a {
+        font-size: 15px;
+    }
+    .right-side {
+        margin-left: 10px;
+    }
+
+}
