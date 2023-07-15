@@ -2,9 +2,7 @@ import React from 'react';
 import phone1 from "../../assets/Рисунок1.png"
 import "./maininfo.css"
 import rustore from  "../../assets/rustore.svg"
-import nashstore from "../../assets/nashstore.jpg"
 import Album from "../Album/Album";
-import Rewiews from "../Rewiews/Rewiews";
 const MainInfo = () => {
     return (
         <div className="container">

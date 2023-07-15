@@ -1,6 +1,5 @@
 import React from 'react';
 import rustore from  "../../assets/rustore.svg"
-import nashstore from "../../assets/nashstore.jpg"
 import logo from "../../assets/logo.png"
 import "./download.css"
 const Download = () => {
