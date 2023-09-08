@@ -13,6 +13,10 @@ const Footer = () => {
                         </li>
                         <li className="nav-item"><a href="#album" className="nav-link px-2 text-body-secondary">Обзор</a>
                         </li>
+                        <li className="nav-item"><a href="/privacy" className="nav-link px-2 text-body-secondary">Политика конфиденциальности</a>
+                        </li>
+                        <li className="nav-item"><a href="/terms" className="nav-link px-2 text-body-secondary">Условия и положения</a>
+                        </li>
                     </ul>
                     <p className="text-center text-body-secondary">© 2023 Ggenius, Inc</p>
                 </footer>
