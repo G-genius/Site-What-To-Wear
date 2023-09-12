@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://whattowear.website/</loc>
+        <priority>0.8</priority>
+
+        <image:image>
+            <image:loc>https://whattowear.website/static/media/logo.5a6464ea7ccf147e80b8.png</image:loc>
+            <image:geo_location>Логотип What to wear</image:geo_location>
+        </image:image>
+        <image:image>
+            <image:loc>https://whattowear.website/static/media/ris.e8e88f0eabc0257226e8.png</image:loc>
+            <image:geo_location>Главная страница с информацией о погоде, а также с блоком подбором одежды.</image:geo_location>
+        </image:image>
+        <image:image>
+            <image:loc>https://whattowear.website/static/media/Рисунок2.582461ff8b1a511be76b.png</image:loc>
+            <image:geo_location>Детальная информация о погоде на несколько дней.</image:geo_location>
+        </image:image>
+        <image:image>
+            <image:loc>https://whattowear.website/static/media/Рисунок4.fa3532c0ac0c6b8b7076.png</image:loc>
+            <image:geo_location>Разнообразный набор видов одежды по категориям.</image:geo_location>
+        </image:image>
+        <image:image>
+            <image:loc>https://whattowear.website/static/media/Рисунок5.25c40a83961827e9c85a.png</image:loc>
+            <image:geo_location>Получение одежды по геолокации или возможность ввести город вручную.</image:geo_location>
+        </image:image>
+    </url>
+
+</urlset>

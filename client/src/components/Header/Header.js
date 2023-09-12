@@ -13,10 +13,12 @@ const Header = () => {
     return (
         <header>
             <div className="sidebar">
-                <div className="left-side">
-                    <img src={logo} alt="logo"/>
-                    <a href="/">What to wear</a>
-                </div>
+                <a href="/">
+                    <div className="left-side">
+                        <img src={logo} alt="logo"/>
+                        <span>What to wear</span>
+                    </div>
+                </a>
                 <div className="center-side">
                     <nav aria-label="Основные разделы на странице">
                         <ul>
@@ -28,7 +30,7 @@ const Header = () => {
                 </div>
                 <div className="right-side">
                     <button onClick={OpenDownloadPage}>Устновить приложение</button>
-                    <span>EN</span>
+                    <span>RU</span>
                 </div>
 
             </div>

@@ -13,7 +13,7 @@ header {
     align-items: center;
 
 }
-.left-side a {
+.left-side span {
     text-decoration: none;
     color: #00a2e8;
     padding-left: 10px;

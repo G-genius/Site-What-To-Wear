@@ -2,6 +2,7 @@ import React from 'react';
 import phone1 from "../../assets/Рисунок1.png"
 import "./maininfo.css"
 import rustore from  "../../assets/rustore.svg"
+import appgallery from "../../assets/ag1.png"
 import Album from "../Album/Album";
 const MainInfo = () => {
     return (
@@ -9,8 +10,11 @@ const MainInfo = () => {
             <div className="main-info">
                 <div className="left-block">
                     <h2>Получите максимум от погоды</h2>
-                    <h1>What to wear - отечественное погодное мобильное приложение с алгоритмом подбора одежды</h1>
-                    <a href="https://apps.rustore.ru/app/com.ggenius.wtw"><img src={rustore} alt="RuStore"/></a>
+                    <h1>What to wear - российское погодное мобильное приложение с алгоритмом подбора одежды</h1>
+                    <div className="d-flex center-side" >
+                        <a href="https://apps.rustore.ru/app/com.ggenius.wtw"><img src={rustore} alt="RuStore"/></a>
+                        <a href="https://appgallery.huawei.com/#/app/C107252811"><img className="imgag" src={appgallery} alt="App Gallery"/></a>
+                    </div>
 
                 </div>
                 <div>
