@@ -13,12 +13,16 @@ header {
     align-items: center;
 
 }
-.left-side span {
+.sidebar a {
     text-decoration: none;
     color: #00a2e8;
-    padding-left: 10px;
+    padding: 10px;
     font-size: 25px;
 }
+.logotext {
+    font-weight: lighter;
+}
+
 .left-side img {
     max-width: 50px;
     width: 50px;
@@ -26,6 +30,7 @@ header {
     height: auto;
     display: block;
     border-radius: 15px;
+    margin-right: 10px;
 }
 .center-side {
     display: flex;
@@ -64,6 +69,7 @@ header {
     font-weight: bolder;
 }
 
+
 .btnLi {
     text-decoration: none;
     color: #00a2e8;
@@ -86,6 +92,10 @@ header {
     }
     .right-side {
         margin-left: 10px;
+    }
+    .sidebar a {
+        text-align: center;
+        font-size: 20px;
     }
 
 }

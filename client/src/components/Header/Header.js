@@ -16,7 +16,7 @@ const Header = () => {
                 <a href="/">
                     <div className="left-side">
                         <img src={logo} alt="logo"/>
-                        <span>What to wear</span>
+                        <span className="logotext">What to wear</span>
                     </div>
                 </a>
                 <div className="center-side">
